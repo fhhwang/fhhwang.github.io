@@ -104,7 +104,7 @@ theme: butterfly
 deploy:
   type: git
   repo: https://github.com/fhhwang/fhhwang.github.io.git
-  branch: main
+  branch: gh-pages
   token: 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
   message: "update blog"
 
