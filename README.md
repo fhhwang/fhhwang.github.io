@@ -138,7 +138,17 @@ token是部署中第6步产生的token，用于访问仓库，否则需要配置
 3. Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能将网站部署到服务器上。
 
    ```bash
-   hexo deploy
+   hexo d   # 命令全称 hexo deploy
    ```
 
-   
+
+#### 手动部署
+
+生成网站静态文件：
+
+```bash
+hexo g  # hexo generate
+```
+
+运行上述命令会在 public 文件夹下面生成网站静态文件，将 public 文件夹下所有文件上传到 GitHub Pages 部署分支即可。
+
