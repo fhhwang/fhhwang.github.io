@@ -1,6 +1,6 @@
 ---
 title: LaTeX伪代码
-date: 2022-10-22 16:58:47
+date: 2022-10-23 9:58:47
 tags: LaTeX
 categories: LaTeX
 top_img: /img/post2/top_img.jpg
@@ -200,21 +200,29 @@ algorithm2e 包允许大量自定义排版算法。与 algorithmic 不同，algo
 用法示例：
 
 ```tex
-\begin{algorithm}[H]
- \KwData{this text}
- \KwResult{how to write algorithm with \LaTeX2e }
- initialization\;
- \While{not at end of this document}{
-  read current\;
-  \eIf{understand}{
-   go to next section\;
-   current section becomes this one\;
-   }{
-   go back to the beginning of current section\;
-  }
- }
- \caption{How to write algorithms}
-\end{algorithm}
+\documentclass{article}
+
+\usepackage[ruled, vlined, linesnumbered]{algorithm2e}
+\begin{document}
+\begin{algorithm}[t]
+    \caption{How to write algorithms}
+    \begin{small}
+        \BlankLine
+        \KwData{this text}
+        \KwResult{how to write algorithm with \LaTeX2e }
+        initialization\;
+        \While{not at end of this document}{
+        read current\;
+        \eIf{understand}{
+        go to next section\;
+        current section becomes this one\;
+        }{
+        go back to the beginning of current section\;
+     }
+    }
+    \end{small}       
+\end{algorithm} 
+\end{document}
 ```
 
 结果：
