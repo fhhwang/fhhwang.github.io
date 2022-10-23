@@ -16,6 +16,7 @@ window.addEventListener('load', () => {
     })
   }
 
+  
   const closeSearch = () => {
     const bodyStyle = document.body.style
     bodyStyle.width = ''

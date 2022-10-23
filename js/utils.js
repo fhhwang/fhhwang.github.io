@@ -15,6 +15,7 @@ const btf = {
     }
   },
 
+  
   throttle: function (func, wait, options) {
     let timeout, context, args
     let previous = 0
