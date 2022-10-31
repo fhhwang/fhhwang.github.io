@@ -3,8 +3,8 @@ title: LaTeX伪代码
 date: 2022-10-23 9:58:47
 tags: LaTeX
 categories: LaTeX
-top_img: /img/post2/top_img.jpg
-cover: /img/post2/top_img.jpg
+top_img: /img/post2/top_img.JPG
+cover: /img/post2/top_img.JPG
 description: 在 LaTeX 中排版算法或者伪代码
 ---
 # LaTeX伪代码
@@ -171,7 +171,7 @@ Comments:
 
 结果：
 
-![](/img/post2/al1.png)
+![](/img/post2/al1.PNG)
 
 ### algpseudocodex
 
@@ -227,7 +227,7 @@ algorithm2e 包允许大量自定义排版算法。与 algorithmic 不同，algo
 
 结果：
 
-![](/img/post2/al2.png)
+![](/img/post2/al2.PNG)
 
 ## 算法跨页展示
 
